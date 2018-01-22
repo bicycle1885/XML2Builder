@@ -45,7 +45,7 @@ platforms = [
 script = raw"""
 cd $WORKSPACE/srcdir
 cd zlib-1.2.11/
-./configure --prefix=/ --sharedlibdir=/bin
+./configure --prefix=/
 make install LDSHAREDLIBC=''
 cd ../libxml2-2.9.7/
 ./configure --prefix=/ --host=$target --without-python --with-zlib=$(pwd)/../../destdir
