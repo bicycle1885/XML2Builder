@@ -8,7 +8,7 @@ sources = [
 ]
 
 products = prefix -> [
-    LibraryProduct(prefix, "libxml2")
+    LibraryProduct(prefix, "libxml2", :libxml2)
 ]
 
 
