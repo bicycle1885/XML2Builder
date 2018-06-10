@@ -1,8 +1,8 @@
 using BinaryBuilder
 
 sources = [
-    "ftp://xmlsoft.org/libxml2/libxml2-2.9.7.tar.gz" =>
-    "f63c5e7d30362ed28b38bfa1ac6313f9a80230720b7fb6c80575eeab3ff5900c",
+    "https://github.com/GNOME/libxml2/archive/v2.9.7.tar.gz" =>
+        "a7b52278afca823d263deb8b4b33710735f1b5208a351173b2deb78a6d936412",
 ]
 
 script = raw"""
