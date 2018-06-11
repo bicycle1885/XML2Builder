@@ -7,7 +7,7 @@ sources = [
 
 script = raw"""
 cd ${WORKSPACE}/srcdir/libxml2-*
-./autoconf.sh
+./autogen.sh
 ./configure --prefix=${prefix} --host=${target} --without-python --with-zlib=${prefix}/lib
 make -j${nproc} install
 """
