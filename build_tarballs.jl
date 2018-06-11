@@ -18,7 +18,7 @@ products(prefix) = [
 platforms = supported_platforms()
 
 dependencies = [
-    "https://raw.githubusercontent.com/bicycle1885/ZlibBuilder/v1.2.11-3/build_tarballs.jl",
+    "https://github.com/bicycle1885/ZlibBuilder/releases/download/v1.0.0/build.jl",
 ]
 
-autobuild(pwd(), "XML2Builder", platforms, sources, script, products, dependencies)
+build_tarballs(ARGS, "XML2Builder", sources, script, platforms, products, dependencies)
