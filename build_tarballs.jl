@@ -10,7 +10,7 @@ sources = [
 script = raw"""
 cd ${WORKSPACE}/srcdir/libxml2-*
 ./autogen.sh
-./configure --prefix=${prefix} --host=${target} --without-python --with-zlib=${prefix}/lib
+./configure --prefix=${prefix} --host=${target} --without-python --with-zlib=${prefix}
 make -j${nproc} install
 """
 
