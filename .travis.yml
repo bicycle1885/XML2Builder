@@ -30,7 +30,7 @@ deploy:
   api_key:
     secure: atIn8vKDcx0GJK3Zpo4tgHNYLzAkkL0vFnqiZ1OgonAg/V4lw5BD/tTMZSDCBGyZnEsMd4rL008YKAriCdajyQz1TuLG7Z8iv6dvXRyUCbCZLcWnjLHJpCY5qXXWEdEFpQhk3pOun5oHg2C/a9MPGSTbZ9gXYItpPnO94Xn6Mlw91kZ4TtNRp8TMlcNPZFYjMfjUvliJECFP+EjWtmChnRgp7LJjlHKZYQPyzkwiN+LryAcytx2kcAVzVb6af/RWZpkHz3UHYedxJg1K1LCKN6reVbdGkRGWnaKhOavufaqeanVpThLwgRsW9ghBW4Gye5wq19R3BJ0oeUTUuteu1V8qdnBfUzhbsAS4+dC9v0/1Y5h00QL8VB5IaaONyjrtGjHeOdi51LQ0gbwHqt7I3TWvx7ZUuJ6SKx5zIg2dUVUznp0ZPFlDpe+3wpkQaP2vsrHm7yHq0McQKOAE7JFt8JaM0Qkxw88ci1nTLJvqWEnNBXU30G49wVsFWLQHHAgQD67ZhBMaD4/MtzKFXG+m6hZmzcSdV7W9GqiPzvw/4dbCdfnmZsz8ABCD+E7fiRONnz+QdPbp31D+AcIgUSB/Rdw63E/x6Piw6YUoVONrwuLif3UBMj4YYBV11JwJvwQpxx+vDn8QHOeb/PFE01s/ZQfJn1Y7DO84+4dPFS3rYpY=
   file_glob: true
-  file: products/*.tar.gz
+  file: products/*
   skip_cleanup: true
   on:
     repo: bicycle1885/XML2Builder
