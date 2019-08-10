@@ -1,3 +1,6 @@
+**NOTE: This repository has been moved to [JuliaPackaging/Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil); the code is no longer maintained here.**
+
+
 # XML2Builder
 
 [![TravisCI Status][travisci-img]][travisci-url]
